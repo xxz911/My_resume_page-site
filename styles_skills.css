@@ -1,0 +1,58 @@
+.body {
+  background-color:rgba(20, 20, 27, 1); 
+}
+
+.nav {
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  opacity: 1; 
+  background-color: rgba(0, 0, 0, 0.456);
+  z-index: 9998;
+  padding: 0%;
+}
+
+.card {
+    border-radius: 2em;
+    background-color: rgba(112, 128, 144, 0.239);
+  }
+
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.464)
+}
+
+.card-link {
+  text-decoration: none;
+  text-overflow: ellipsis;
+  color: white;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+
+}
+
+.card-text {
+  vertical-align:top;
+  color: white;
+  
+}
+
+.card-title {
+  margin-bottom: 10px;
+  color: rgb(255, 0, 0);
+}
+
+.card-body {
+  padding-top: 2px;
+}
+
+.margin_cart_but {
+  margin-bottom: 10em;
+}
+
+.text-shadow {
+  text-shadow: 0px 8px 5px rgba(255, 255, 255, 0.15),
+                0px 12px 1px rgba(255, 255, 255, 0.1),
+                0px 16px 15px rgba(255, 255, 255, 0.1); 
+}
