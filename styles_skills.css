@@ -12,6 +12,10 @@
   padding: 0%;
 }
 
+.mail_text {
+  color: rgb(0, 255, 64);
+}
+
 .card {
     border-radius: 2em;
     background-color: rgba(112, 128, 144, 0.239);
