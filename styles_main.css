@@ -8,9 +8,9 @@ background-color: aliceblue;
 .left-bar{
     background-color:#153e8bf6;
 
-    border-right: 1px solid #4a4a4a;
+    border-right: 1px solid #00000069;
     border-bottom: 1.5px solid rgba(0, 0, 0, 0.584);
-    box-shadow: 0 0 7px 3px #4a4a4a;
+    box-shadow: 0 0 7px 3px #ffffff;
     color: white;
     padding: 0px;
 
@@ -20,7 +20,8 @@ background-color: aliceblue;
     /* background-color:rgba(157, 157, 157, 0.202);  */
     /* background-color:rgba(109, 109, 109, 0.134);  */
     /* height: 100vh;  */
-    color: black;
+    background: #3b3b3b;
+    color: rgb(255, 255, 255);
     padding: 1%;
     
 }
@@ -80,7 +81,7 @@ a, a:hover {
 }
 
 .hr-horizontal-gradient {
-    margin: -75px auto 1px;
+    margin: -75px auto 7px;
     padding: 0;
     height: 75px;
     border: none;
@@ -111,4 +112,16 @@ a .my-a {
 }
 .mini-title {
     font-size: 0.9em;
+    color: #eeff00;
 }
+
+.title-container {
+    padding-left: 0%; 
+    color: rgb(255, 255, 255); 
+    margin-bottom: 0.5%; 
+    background-color:#032668f6; 
+    border-radius: 1em;
+    box-shadow: -1.98175048828125px 8.010416984558105px 10px -10px rgba(255, 250, 255, 1); 
+    border: 1px solid #212121b7;
+}
+/* background-color:#00000068; */
