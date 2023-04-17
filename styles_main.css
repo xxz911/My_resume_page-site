@@ -1,44 +1,39 @@
-/* .body {
-background-color: aliceblue;
-} */
+.body {
+background-color:#313131;
+}
 
 .row {
     margin: 0px;
 }
 .left-bar{
-    background-color:#153e8bf6;
-
-    border-right: 1px solid #00000069;
+    background: #232323;
+    border-radius: 1em;
+    border: 1px solid #00000069;
     border-bottom: 1.5px solid rgba(0, 0, 0, 0.584);
-    box-shadow: 0 0 7px 3px #ffffff;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 0px;
 
 }
 
 .right-bar {
-    /* background-color:rgba(157, 157, 157, 0.202);  */
-    /* background-color:rgba(109, 109, 109, 0.134);  */
-    /* height: 100vh;  */
-    background: #3b3b3b;
     color: rgb(255, 255, 255);
     padding: 1%;
     
 }
 
 .round-img {
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     border-radius: 1em;
-    box-shadow: 0 0 1px 1px #ffffff;
-    margin-top: 7%;
-    margin-bottom: 4%;
+    box-shadow: 0 0 0px 1px #000000;;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
 .title-left {
-    color:white;
+    color:rgb(252, 2, 2);
     text-align: center;
-    background-color:#032668f6;
+    background-color:#181818;
     height: 1.5em;
     margin-right: 0%;
     margin-top: 3%;
@@ -72,12 +67,8 @@ li img {
 }
 
 a, a:hover {
-    color:rgb(38, 255, 0);
-}
-
-#right-title img {
-    margin-right: 0.8%;
-    margin-bottom: 0.3em;
+    color:yellow;
+    font-size: small;
 }
 
 .hr-horizontal-gradient {
@@ -112,16 +103,16 @@ a .my-a {
 }
 .mini-title {
     font-size: 0.9em;
-    color: #eeff00;
+    color: #00ff33;
 }
 
 .title-container {
+    padding: 1.5px;
     padding-left: 0%; 
     color: rgb(255, 255, 255); 
     margin-bottom: 0.5%; 
-    background-color:#032668f6; 
+    background-color:#181818;; 
     border-radius: 1em;
-    box-shadow: -1.98175048828125px 8.010416984558105px 10px -10px rgba(255, 250, 255, 1); 
+    box-shadow: -1.98175048828125px 8.010416984558105px 4px -7px rgba(255, 250, 255, 1); 
     border: 1px solid #212121b7;
 }
-/* background-color:#00000068; */
